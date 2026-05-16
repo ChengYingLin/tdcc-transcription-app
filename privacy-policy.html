@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>隱私權政策 — Conversation Transcription</title>
+  <style>
+    body { font-family: "Helvetica Neue", Arial, sans-serif; max-width: 860px; margin: 0 auto; padding: 40px 24px; color: #333; line-height: 1.8; }
+    h1 { font-size: 1.8rem; color: #1a1a2e; margin-bottom: 4px; }
+    h2 { font-size: 1.15rem; color: #16213e; border-bottom: 2px solid #e0e0e0; padding-bottom: 6px; margin-top: 36px; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 32px; }
+    ul { padding-left: 20px; }
+    ul li { margin-bottom: 6px; }
+    .highlight-box { background: #e8f5e9; border-left: 4px solid #388e3c; padding: 12px 16px; border-radius: 4px; margin: 16px 0; font-size: 0.95rem; }
+    .footer-links { margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 0.9rem; color: #666; }
+    .footer-links a { color: #1565c0; margin-right: 20px; text-decoration: none; }
+    .footer-links a:hover { text-decoration: underline; }
+    ol { padding-left: 20px; }
+    ol li { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+
+  <h1>🔒 隱私權政策</h1>
+  <div class="meta">
+    最後更新日期：2026 年 5 月 16 日<br>
+    適用應用程式：Conversation Transcription（iOS）<br>
+    資料管理單位：臺灣集中保管結算所
+  </div>
+
+  <h2>一、概述</h2>
+  <p>
+    本應用程式（以下稱「本 App」）由臺灣集中保管結算所開發並維護，僅供本所內部員工使用。
+    本政策說明我們如何蒐集、使用及保護您的個人資料。
+  </p>
+
+  <h2>二、我們蒐集的資料</h2>
+  <p><strong>透過 Google 帳號登入取得：</strong></p>
+  <ul>
+    <li>您的 Google 帳號姓名與電子郵件地址（用於身分驗證與使用權限確認）</li>
+    <li>您 Google 日曆中的個人行程事件（僅限讀取，用於顯示會議清單）</li>
+  </ul>
+  <p><strong>使用 App 過程中產生：</strong></p>
+  <ul>
+    <li>語音錄音檔（儲存於您的裝置本機）</li>
+    <li>語音辨識後的文字轉錄內容（儲存於您的裝置本機）</li>
+    <li>翻譯後的文字內容（儲存於您的裝置本機）</li>
+    <li>使用紀錄 log（含帳號名稱、登入時間、功能使用記錄，上傳至 Azure Blob Storage）</li>
+  </ul>
+
+  <h2>三、資料的使用目的</h2>
+  <p>我們蒐集的資料僅用於以下目的：</p>
+  <ol>
+    <li>驗證使用者身分，確認是否具備使用本 App 的授權</li>
+    <li>顯示您的 Google 日曆會議列表，方便建立對應翻譯紀錄</li>
+    <li>提供即時語音翻譯、轉錄及 AI 摘要功能</li>
+    <li>系統管理與錯誤排查</li>
+  </ol>
+  <p>我們不會將您的資料用於廣告、行銷或出售給任何第三方。</p>
+
+  <h2>四、Google API 資料使用聲明</h2>
+  <p>
+    本 App 使用 Google API 取得的資料，嚴格遵守
+    Google API 服務使用者資料政策（Google API Services User Data Policy），
+    包含限制使用規定（Limited Use Requirements）。
+  </p>
+  <div class="highlight-box">
+    Use of information received from Google APIs will adhere to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">
+      Google API Services User Data Policy
+    </a>, including the Limited Use requirements.
+  </div>
+  <p>具體而言：</p>
+  <ul>
+    <li>我們僅將 Google 日曆資料用於在本 App 內顯示您的會議列表</li>
+    <li>我們不會將 Google 日曆資料傳送給任何第三方</li>
+    <li>我們不會使用 Google 日曆資料訓練 AI 模型</li>
+    <li>我們不會在提供您直接要求的功能以外，儲存或使用 Google 資料</li>
+  </ul>
+
+  <h2>五、資料儲存位置</h2>
+  <ul>
+    <li><strong>語音錄音、轉錄文字、翻譯內容：</strong>僅儲存於您的 iOS 裝置本機</li>
+    <li><strong>iCloud 備份：</strong>如您啟用，資料會依 Apple 隱私政策備份至 iCloud</li>
+    <li><strong>使用 log：</strong>僅上傳帳號名稱、Email、操作時間至本所管理的 Azure Blob Storage</li>
+    <li><strong>AI 摘要處理：</strong>文字內容傳送至本所訂閱的 Azure OpenAI 服務進行處理</li>
+  </ul>
+  <p>所有雲端服務均由臺灣集中保管結算所訂閱並管理，資料不會落入任何商業第三方手中。</p>
+
+  <h2>六、資料保存期間</h2>
+  <ul>
+    <li><strong>裝置本機資料：</strong>由使用者自行刪除或解除安裝 App 時移除</li>
+    <li><strong>使用 log：</strong>保存於 Azure Blob Storage，依本所資訊安全政策定期清除</li>
+  </ul>
+
+  <h2>七、您的資料權利</h2>
+  <p>您有權：</p>
+  <ul>
+    <li>查詢本所保存的您的相關 log 資料</li>
+    <li>要求刪除您的使用 log</li>
+    <li>撤銷本 App 對您 Google 帳號的存取授權（至 Google 帳戶設定 &gt; 安全性 &gt; 第三方存取 撤銷）</li>
+  </ul>
+  <p>如需行使上述權利，請聯繫：<a href="mailto:chengyingtw@gmail.com">chengyingtw@gmail.com</a></p>
+
+  <h2>八、未成年人</h2>
+  <p>本 App 僅供本所員工使用，不適用於 18 歲以下人士。我們不會刻意蒐集未成年人之個人資料。</p>
+
+  <h2>九、隱私政策變更</h2>
+  <p>
+    本政策如有重大變更，將透過 App 內通知或 Email 告知使用者。
+    繼續使用本 App 即表示您同意更新後的政策內容。
+  </p>
+
+  <h2>十、聯絡我們</h2>
+  <p>
+    如對本隱私政策有任何疑問：<br>
+    <strong>臺灣集中保管結算所</strong><br>
+    Email：<a href="mailto:chengyingtw@gmail.com">chengyingtw@gmail.com</a>
+  </p>
+
+  <div class="footer-links">
+    <a href="./">🏠 首頁</a>
+    <a href="./terms-of-service">📋 服務條款</a>
+  </div>
+
+</body>
+</html>
